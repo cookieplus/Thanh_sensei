@@ -226,5 +226,5 @@ window.addEventListener('DOMContentLoaded', main);
     + 1 nghĩa là đã được xếp gạch, sẽ có màu là `CELL_COLOR`
 - Dòng sau có nghĩa là khi browser dựng xong khung HTML thì sẽ gọi function `main`.
 ```js
-    $(document).ready(main);
+    window.addEventListener('DOMContentLoaded', main);
 ```
